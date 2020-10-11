@@ -1,11 +1,11 @@
 colorscheme:
     name: black
-    tagline: '#8F0D0D'
-    headingrule: '#E7D192'
-    subheading: '#8F0D0D'
-    accent: '#8F0D0D'
-    emphasis: '#2E2E2E'
-    body: '#666666'
+    tagline: '#3E0097'
+    headingrule: '#3E0097'
+    subheading: '#0033AA'
+    accent: '#0033AA'
+    emphasis: '#b22222'
+    body: '#121212'
 personalinfo:
     name: Ngo Ngoc Duc Huy
     tagline: Software Engineer
@@ -28,24 +28,48 @@ column-1:
                 time: May 2020 - Sep 2020
                 location: Hanoi
                 description:
-                    - Working on disposable mail service and mail tracking
-                    - Work as a collaborator in the last month
+                    - Working on disposable mail service (see \textbf{\href{https://github.com/Huy-Ngo/temp-mail}{source code}} of early work)
+                    - Work as a collaborator in the last month on mail tracking
+                    - Use Flask for backend, nginx and gunicorn for deployment, applying SSE for continuous update to client
     - events:
         heading: Projects
         items:
             - event:
-                title: Palace
+                title: Palace \faPython
                 org: Group project for SE course
+                time: Dec 2019 - current
                 description:
                     - 3D Audio processing
-                    - Source code available on \href{https://github.com/McSinyx/palace}{GitHub}
+                    - Working as developer and technical writer
+                    - Source code available on \textbf{\href{https://github.com/McSinyx/palace}{GitHub}}
             - event:
-                title: Project 2
-                org: Funding agency/institution
-                time: Project duration
-                location: Location
-                description: A short abstract would also work.
+                title: Speaker Recognition \faPython
+                org: Group project for DSP course
+                time: Jun 2020
+                description: A system that recognizes who is speaking on audio input, applying MFCC and GMM
+            - event:
+                title: Discord meme bot \faNodeJs \faDiscord
+                org: Personal project for fun
+                time: Sep 2020 - current
+                description: A Discord bot that sends memes from various API, source code available on \textbf{\href{https://github.com/Huy-Ngo/discord-meme-bot}{GitHub}}
+            - event:
+                title: YAltaCV \faPython
+                org: Personal project
+                time: Oct 2020
+                description: A script that generate LaTeX for a CV template from YAML to reduce time writing/updating CV, enabling this very CV
+            - event:
+                title: Round-robin scheduler \faVuejs
+                org: Personal project
+                time: Apr 2020
+                description: A time scheduler inspired by the round-robin time scheduling algorithms used by OS to avoid spending too much time on one thing, available on \textbf{\href{https://github.com/Huy-Ngo/round-robin}{GitHub}}
 column-2: 
+    - events:
+        heading: Education
+        items:
+            - event:
+                title: B.S. in Information and Communication Technology
+                org: University of Science and Technology of Hanoi
+                time: Sept 2002 -- Current
     - achievements:
         heading: Certifications
         items:
@@ -64,39 +88,36 @@ column-2:
             - Work under pressure
             - dividertag
             - Web Development
+            - Algorithms
+            - br
+            - OOP
+            - OOAD
     - scales:
-        heading: Programming Languages
+        heading: Programming
+        divider: no
         items:
             JavaScript: 5
             HTML \& CSS: 5
             Python: 4
+            SQL: 3
+            Git: 3
+            Kotlin: 1
+            Go: 1
     - scales:
         heading: Languages
+        divider: no
         items:
             Vietnamese: 5
             English: 4
             French: 2
             German: 1
-    - events:
-        heading: Education
+    - badges:
+        heading: Hobbies
         items:
-            - event:
-                title: B.S. in Information and Communication Technology
-                org: University of Science and Technology of Hanoi
-                time: Sept 2002 -- Current
-    # - referees:
-    #     items:
-    #         - referee:
-    #             name: Prof.\ Alpha Beta
-    #             institute: Institute
-    #             email: a.beta@university.edu
-    #             addresses:
-    #                 - Address Line 1
-    #                 - Address line 2
-    #         - referee:
-    #             name: Prof.\ Gamma Delta
-    #             institute: Institute
-    #             email: g.delta@university.edu
-    #             addresses:
-    #                 - Address Line 1
-    #                 - Address line 2
+            - Movies
+            - Books
+            - Languages
+            - br
+            - DIY
+            - FOSS
+            - Memes
