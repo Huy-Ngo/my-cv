@@ -14,11 +14,13 @@ def safe(d, key):
 
 def print_personal_info(personal_info):
     lines = []
+    lines.append('\\name{' + personal_info['name'] + '}')
+    lines.append('\\tagline{' + personal_info['tagline'] + '}')
     if 'photo' in personal_info:
         lines.append('\\photoR{2.8cm}{' + personal_info['photo'] + '}')
     lines.append('\\personalinfo{\n')
     for key in personal_info:
-        if key == 'photo':
+        if key in ['photo', 'name', 'tagline']:
             continue
         line = '  \\'
         line += key
