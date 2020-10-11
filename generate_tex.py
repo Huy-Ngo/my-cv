@@ -85,7 +85,7 @@ def print_badges(badges):
         if badge == 'dividertag':
             lines.append('\n\\divider\\smallskip\n\n')
         elif badge == 'br':
-            lines.append('\\\\')
+            lines.append('\\\\\\smallskip')
         else:
             lines.append('\\cvtag{' + badge + '}\n')
     return lines

@@ -92,6 +92,7 @@ column-2:
             - br
             - OOP
             - OOAD
+            - LaTeX
     - scales:
         heading: Programming
         divider: no
