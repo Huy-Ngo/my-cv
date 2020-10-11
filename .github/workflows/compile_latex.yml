@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Github Action for LaTeX
+        # You may pin to the exact commit or the version.
+        # uses: xu-cheng/latex-action@dacf2cfbdd5fd768c2298cbdc9e105bd9ed7f293
+        uses: xu-cheng/latex-action@v2
+        with:
+          # The root LaTeX file to be compiled
+          root_file: sample.tex
+          # The working directory for the LaTeX engine
+          # working_directory: # optional
+          # The LaTeX engine to be invoked
+          # compiler: pdflatex # optional, default is latexmk
+          # Extra arguments to be passed to the LaTeX engine
+          # args: # optional, default is -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+          # Install extra packages by apk
+          # extra_system_packages: # optional
+          # Arbitrary bash codes to be executed before compiling LaTeX documents
+          # pre_compile: # optional
+          # Arbitrary bash codes to be executed after compiling LaTeX documents
+          post_compile: |
+            git add sample.pdf
+            git commit -m "Generate PDF file"

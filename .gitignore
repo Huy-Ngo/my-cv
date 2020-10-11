@@ -1,0 +1,12 @@
+.vscode/
+sample.aux
+sample.bbl
+sample.bcf
+sample.blg
+sample.fdb_latexmk
+sample.fls
+sample.log
+sample.out
+sample.run.xml
+sample.synctex.gz
+pdfa.xmpi

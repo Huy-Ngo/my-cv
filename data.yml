@@ -1,0 +1,125 @@
+colorscheme:
+    name: black # You can set color by name
+    tagline: '#8F0D0D' # Or hex code
+    headingrule: '#E7D192'
+    subheading: '#8F0D0D'
+    accent: '#8F0D0D'
+    emphasis: '#2E2E2E'
+    body: '#666666'
+personalinfo:
+    name: Your Name Here
+    tagline: Your Position or Tagline Here
+    photo: Globe_High.png
+    email: your_name@email.com
+    phone: 000-00-0000
+    mailaddress: Åddrésş, Street, 00000 Cóuntry
+    location: location, COUNTRY
+    homepage: www.homepage.com
+    twitter: '@twitterhandle'
+    linkedin: your_id
+    github: your_id
+column-1:
+    - events: # Each section is named as plural of its items
+        heading: Experience # The heading used for the section; without heading the default is the type of section
+        items:
+            - event: # Each item is indexed with numbers
+                title: Job Title 1
+                org: Company 1
+                time: Month 20XX -- Ongoing
+                location: Location
+                description:
+                    - Job description 1
+                    - Job description 2
+            - event:
+                title: Job Title 2
+                org: Company 2
+                time: Month 20XX -- Ongoing
+                location: Location
+                description:
+                    - Job description 1
+                    - Job description 2
+    - events:
+        heading: Projects
+        items:
+            - event:
+                title: Project 1
+                org: Funding agency/institution
+                location: Location
+                description:
+                    - Detail 1
+                    - Detail 2
+            - event:
+                title: Project 2
+                org: Funding agency/institution
+                time: Project duration
+                location: Location
+                description: A short abstract would also work.
+column-2: # There are two columns
+    - quote:
+        heading: My Life Philosophy
+        quote: Something smart or heartfelt, preferably in one sentence.
+    - achievements:
+        heading: Most Proud of
+        items:
+            - achievement:
+                icon: \faTrophy
+                title: Fantastic Achievement
+                description: and some details about it
+            - achievement:
+                icon: \faHeartbeat
+                title: Another achievement
+                description: more details about it of course
+            - achievement:
+                icon: \faHeartbeat
+                title: Another achievement
+                description: more details about it of course
+    - badges:
+        heading: Strengths
+        items:
+            - Hard-working
+            - Eye for detail
+            - br
+            - Motivator \& Leader
+            - dividertag
+            - C++
+            - Embedded Systems
+            - br
+            - Statistical Analysis
+    - scales:
+        heading: Languages
+        items:
+            English: 5
+            Spanish: 4
+            German: 3
+    - events:
+        heading: Education
+        items:
+            - event:
+                title: Ph.D.\ in Your Discipline
+                org: Your University
+                time: Sept 2002 -- June 2006
+                description: 'Thesis title: Wonderful Research'
+            - event:
+                title: M.Sc.\ in Your Discipline
+                org: Your University
+                time: Sept 2001 -- June 2002
+            - event:
+                title: B.Sc.\ in Your Discipline
+                org: Stanford University
+                time: Sept 1998 -- June 2001
+    - referees:
+        items:
+            - referee:
+                name: Prof.\ Alpha Beta
+                institute: Institute
+                email: a.beta@university.edu
+                addresses:
+                    - Address Line 1
+                    - Address line 2
+            - referee:
+                name: Prof.\ Gamma Delta
+                institute: Institute
+                email: g.delta@university.edu
+                addresses:
+                    - Address Line 1
+                    - Address line 2
