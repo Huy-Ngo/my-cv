@@ -2,9 +2,10 @@ colorscheme:
     name: black
     tagline: '#3E0097'
     headingrule: '#3E0097'
+    heading: blue!30!black
     subheading: '#0033AA'
     accent: '#0033AA'
-    emphasis: '#b22222'
+    emphasis: '#871a1a'
     body: '#121212'
 personalinfo:
     name: Ngo Ngoc Duc Huy
@@ -112,13 +113,13 @@ column-2:
             English: 4
             French: 2
             German: 1
-    - badges:
-        heading: Hobbies
-        items:
-            - Movies
-            - Books
-            - Languages
-            - br
-            - DIY
-            - FOSS
-            - Memes
+    # - badges:
+    #     heading: Hobbies
+    #     items:
+    #         - Movies
+    #         - Books
+    #         - Languages
+    #         - br
+    #         - DIY
+    #         - FOSS
+    #         - Memes
