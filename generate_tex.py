@@ -126,6 +126,9 @@ def print_section(section):
     section_items = (section_body['items']
                      if 'items' in section_body
                      else None)
+    has_divider = (section_body['divider']
+                   if 'divider' in section_body
+                   else True)
 
     printers = {
         'events': print_event,
@@ -142,7 +145,7 @@ def print_section(section):
         printer = printers[section_type]
         for i, item in enumerate(section_items):
             lines += printer(item)
-            if i < len(section_items) - 1:
+            if i < len(section_items) - 1 and has_divider:
                 lines.append('\n\\divider\n\n')
     elif section_type == 'quote':
         lines += print_quote(section_body['quote'])
@@ -151,7 +154,7 @@ def print_section(section):
     elif section_type == 'scales':
         for i, item in enumerate(section_items):
             lines += print_scale(item, section_items[item])
-            if i < len(section_items) - 1:
+            if i < len(section_items) - 1 and has_divider:
                 lines.append('\n\\divider\n\n')
     return lines
 
