@@ -9,9 +9,9 @@ colorscheme:
     body: '#121212'
 personalinfo:
     name: Ngo Ngoc Duc Huy
-    tagline: Software Engineer
+    tagline: Web Developer Intern
     photo: pfp.jpeg
-    email: duchuy29092000@gmail.com
+    email: huyngo@disroot.org
     phone: +84-949-507-248
     # mailaddress: Åddrésş, Street, 00000 Cóuntry
     location: Hanoi, VIETNAM
@@ -37,32 +37,33 @@ column-1:
         items:
             - event:
                 title: Palace \faPython
-                org: Group project for SE course
-                time: Dec 2019 - current
+                org: Group project at USTH
+                time: Dec 2019 -- current
                 description:
                     - 3D Audio processing
                     - Working as developer and technical writer
                     - Source code available on \textbf{\href{https://github.com/McSinyx/palace}{GitHub}}
             - event:
-                title: Speaker Recognition \faPython
-                org: Group project for DSP course
-                time: Jun 2020
-                description: A system that recognizes who is speaking on audio input, applying MFCC and GMM
+                title: Acanban \faPython
+                org: Group project at USTH
+                time: Nov 2020 -- current
+                description:
+                    - A student-supervisor collaboration platform with builtin academic integration, work in progress
+                    - Source code available on \textbf{\href{https://github.com/Huy-Ngo/acanban}{GitHub}}
             - event:
                 title: Discord meme bot \faNodeJs \faDiscord
-                org: Personal project for fun
-                time: Sep 2020 - current
-                description: A Discord bot that sends memes from various API, source code available on \textbf{\href{https://github.com/Huy-Ngo/discord-meme-bot}{GitHub}}
-            - event:
-                title: YAltaCV \faPython
                 org: Personal project
-                time: Oct 2020
-                description: A script that generate LaTeX for a CV template from YAML to reduce time writing/updating CV, enabling this very CV
+                time: Sep 2020
+                description:
+                    - A Discord bot that sends memes from various API
+                    - Source code available on \textbf{\href{https://github.com/Huy-Ngo/discord-meme-bot}{GitHub}}
             - event:
-                title: Round-robin scheduler \faVuejs
+                title: wikt-cli
                 org: Personal project
-                time: Apr 2020
-                description: A time scheduler inspired by the round-robin time scheduling algorithms used by OS to avoid spending too much time on one thing, available on \textbf{\href{https://github.com/Huy-Ngo/round-robin}{GitHub}}
+                time: Oct 2020 -- current
+                description:
+                    - A CLI tool for looking up Wiktionary, written in Go.
+                    - Source code available on \textbf{\href{https://sr.ht/~huyngo/wikt-cli}{SourceHut}}
 column-2: 
     - events:
         heading: Education
@@ -70,7 +71,7 @@ column-2:
             - event:
                 title: B.S. in Information and Communication Technology
                 org: University of Science and Technology of Hanoi
-                time: Sept 2002 -- Current
+                time: Sept 2018 -- Current
     - achievements:
         heading: Certifications
         items:
@@ -83,7 +84,7 @@ column-2:
                 title: TCF
                 description: 363/B1
     - badges:
-        heading: Strengths
+        heading: Skills
         items:
             - Hard-working
             - Work under pressure
@@ -98,13 +99,14 @@ column-2:
         heading: Programming
         divider: no
         items:
+            Python: 5
             JavaScript: 5
-            HTML \& CSS: 5
-            Python: 4
+            HTML \& CSS: 4
+            RethinkDB: 3
             SQL: 3
             Git: 3
-            Kotlin: 1
             Go: 1
+            Kotlin: 1
     - scales:
         heading: Languages
         divider: no
