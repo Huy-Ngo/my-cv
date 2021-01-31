@@ -215,8 +215,10 @@
 \NewInfoField{twitter}{\faTwitter}[https://twitter.com/]
 \NewInfoField{linkedin}{\faLinkedin}[https://linkedin.com/in/]
 \NewInfoField{github}{\faGithub}[https://github.com/]
+\NewInfoField{sourcehut}{\faCircle[regular]}[https://sr.ht/]
 \NewInfoField{orcid}{\aiOrcid}[https://orcid.org/]
 \NewInfoField{location}{\faMapMarker}
+\NewInfoField{mastodon}{\faMastodon}[https://]
 
 % v1.2: Support for multiple photos
 \newlength{\altacv@photos@width}
