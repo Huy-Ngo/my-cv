@@ -16,9 +16,7 @@ personalinfo:
     # mailaddress: Åddrésş, Street, 00000 Cóuntry
     location: Hanoi, VIETNAM
     homepage: huy-ngo.github.io
-    mastodon:
-        username: huy_ngo
-        instance: fosstodon.org
+    fosstodon: '@huy_ngo'
     linkedin: huy-ngo-b3a964120
     github: Huy-Ngo
     sourcehut: ~huyngo
@@ -118,13 +116,13 @@ column-2:
             English: 4
             French: 2
             German: 1
-    # - badges:
-    #     heading: Hobbies
-    #     items:
-    #         - Movies
-    #         - Books
-    #         - Languages
-    #         - br
-    #         - DIY
-    #         - FOSS
-    #         - Memes
+    - badges:
+        heading: Hobbies
+        items:
+            - Movies
+            - Books
+            - Languages
+            - br
+            - Writing
+            - FOSS
+            - Memes

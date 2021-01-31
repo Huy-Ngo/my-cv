@@ -23,17 +23,10 @@ def print_personal_info(personal_info):
         if key in ['photo', 'name', 'tagline']:
             continue
         line = '  \\'
-        if key == 'mastodon':
-            line += 'mastodon'
-            line += '{'
-            line += personal_info['mastodon']['instance']
-            line += '/@' + personal_info['mastodon']['username']
-            line += '}'
-        else:
-            line += key
-            line += '{'
-            line += safe(personal_info, key)
-            line += '}\n'
+        line += key
+        line += '{'
+        line += safe(personal_info, key)
+        line += '}\n'
         lines.append(line)
     lines.append('}\n')
     return lines

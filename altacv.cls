@@ -203,6 +203,18 @@
     \fi%
   }
 }
+% \mastodon{instance}{username}
+\NewDocumentCommand{\NewMastodonField}{m m m}{%
+  \csdef{#1 hyperprefix}{#3}%
+  \csdef{#1 symbol}{#2}%
+  \csdef{#1}##1{%
+    \if@withhyper
+        \printinfo{\csuse{#1 symbol}}{##1@#1}[\csuse{#1 hyperprefix}##1]%
+    \else
+      \printinfo{\csuse{#1 symbol}}{##1}%
+    \fi%
+  }
+}
 \ExplSyntaxOff
 
 \newcommand{\name}[1]{\def\@name{#1}}
@@ -218,7 +230,7 @@
 \NewInfoField{sourcehut}{\faCircle[regular]}[https://sr.ht/]
 \NewInfoField{orcid}{\aiOrcid}[https://orcid.org/]
 \NewInfoField{location}{\faMapMarker}
-\NewInfoField{mastodon}{\faMastodon}[https://]
+\NewMastodonField{fosstodon}{\faMastodon}{https://fosstodon.org/}
 
 % v1.2: Support for multiple photos
 \newlength{\altacv@photos@width}
