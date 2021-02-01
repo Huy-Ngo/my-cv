@@ -72,6 +72,9 @@ column-2:
                 title: B.S. in Information and Communication Technology
                 org: University of Science and Technology of Hanoi
                 time: Sept 2018 -- Current
+                description: >
+                    Not graduated yet.
+                    Granted scholarships for the last 5 semesters.
     - achievements:
         heading: Certifications
         items:
@@ -88,6 +91,9 @@ column-2:
         items:
             - Hard-working
             - Work under pressure
+            - br
+            - Agile
+            - Kanban
             - dividertag
             - Web Development
             - Algorithms
