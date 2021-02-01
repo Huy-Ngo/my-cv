@@ -9,7 +9,7 @@ colorscheme:
     body: '#121212'
 personalinfo:
     name: Ngo Ngoc Duc Huy
-    tagline: Web Developer Intern
+    tagline: Backend Web Developer Intern
     photo: pfp.jpeg
     email: huyngo@disroot.org
     # phone: +84-949-507-248
@@ -29,30 +29,29 @@ column-1:
                 org: VC Corp
                 time: May 2020 - Sep 2020
                 location: Hanoi
-                description:
-                    - Working on disposable mail service (see \textbf{\href{https://github.com/Huy-Ngo/temp-mail}{source code}} of early work)
-                    - Work as a collaborator in the last month on mail tracking
-                    - Use Flask for backend, nginx and gunicorn for deployment, applying SSE for continuous update to client
+                description: >
+                    Working on disposable mail service
+                    (see \textbf{\href{https://github.com/Huy-Ngo/temp-mail}
+                    {source code}} of early work) and other mail-related problems
     - events:
         heading: Projects
         items:
             - event:
-                title: Palace \faPython
+                title: Palace
                 org: Group project at USTH
                 time: Dec 2019 -- current
                 description:
                     - 3D Audio processing
-                    - Working as developer and technical writer
-                    - Source code available on \textbf{\href{https://github.com/McSinyx/palace}{GitHub}}
+                    - Source code available on \textbf{\href{https://sr.ht/~cnx/palace}{SourceHut}}
             - event:
-                title: Acanban \faPython
+                title: Acanban
                 org: Group project at USTH
                 time: Nov 2020 -- current
                 description:
                     - A student-supervisor collaboration platform with builtin academic integration, work in progress
                     - Source code available on \textbf{\href{https://github.com/Huy-Ngo/acanban}{GitHub}}
             - event:
-                title: Discord meme bot \faNodeJs \faDiscord
+                title: Discord meme bot
                 org: Personal project
                 time: Sep 2020
                 description:
@@ -105,9 +104,13 @@ column-2:
             HTML \& CSS: 4
             RethinkDB: 3
             SQL: 3
-            Git: 3
-            Go: 1
+            Go: 2
             Kotlin: 1
+    - badges:
+        heading: Frameworks
+        items:
+            - Flask
+            - Quart
     - scales:
         heading: Languages
         divider: no
