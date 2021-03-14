@@ -227,7 +227,8 @@
 \NewInfoField{twitter}{\faTwitter}[https://twitter.com/]
 \NewInfoField{linkedin}{\faLinkedin}[https://linkedin.com/in/]
 \NewInfoField{github}{\faGithub}[https://github.com/]
-\NewInfoField{sourcehut}{\faCircle[regular]}[https://sr.ht/]
+% \NewInfoField{sourcehut}{\faCircle[regular]}[https://sr.ht/]
+\NewInfoField{sourcehut}{sourcehut}[https://sr.ht/]
 \NewInfoField{orcid}{\aiOrcid}[https://orcid.org/]
 \NewInfoField{location}{\faMapMarker}
 \NewMastodonField{fosstodon}{\faMastodon}{https://fosstodon.org/}

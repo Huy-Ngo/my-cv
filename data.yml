@@ -64,6 +64,15 @@ column-1:
                 description:
                     - A CLI tool for looking up Wiktionary, written in Go.
                     - Source code available on \textbf{\href{https://sr.ht/~huyngo/wikt-cli}{SourceHut}}
+            - event:
+                title: COVID-19 News crawler
+                org: Personal project
+                time: Feb 2021
+                description: >
+                    A web crawler written in Go taking news from 
+                    \textbf{\href{https://ncov.moh.gov.vn/dong-thoi-gian}{Vietnamese MOH website}}
+                    and add Atom feed.
+                    Source code available on \textbf{\href{https://github.com/Huy-Ngo/cov-news}{GitHub}}
 column-2: 
     - events:
         heading: Education
@@ -92,8 +101,6 @@ column-2:
             - Hard-working
             - Work under pressure
             - br
-            - Agile
-            - Kanban
             - dividertag
             - Web Development
             - Algorithms
@@ -106,7 +113,7 @@ column-2:
         divider: no
         items:
             Python: 5
-            JavaScript: 5
+            JavaScript: 4
             HTML \& CSS: 4
             RethinkDB: 3
             SQL: 3
