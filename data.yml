@@ -8,7 +8,7 @@ colorscheme:
     emphasis: '#871a1a'
     body: '#121212'
 personalinfo:
-    name: Ngo Ngoc Duc Huy
+    name: Ngô Ngọc Đức Huy
     tagline: Backend Web Developer Intern
     photo: pfp.jpeg
     email: huyngo@disroot.org
@@ -78,7 +78,7 @@ column-2:
         heading: Education
         items:
             - event:
-                title: B.S. in Information and Communication Technology
+                title: Bachelor in Information and Communication Technology
                 org: University of Science and Technology of Hanoi
                 time: Sept 2018 -- Current
                 description: >

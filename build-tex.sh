@@ -1,2 +1,2 @@
 python3 generate_tex.py
-pdflatex huy-cv.tex
+lualatex huy-cv.tex
