@@ -113,10 +113,10 @@ column-2:
         divider: no
         items:
             Python: 5
-            JavaScript: 4
             HTML \& CSS: 4
-            RethinkDB: 3
+            JavaScript: 4
             SQL: 3
+            RethinkDB: 3
             Go: 1
     - badges:
         heading: Frameworks
