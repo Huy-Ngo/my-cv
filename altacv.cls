@@ -226,6 +226,7 @@
 \NewInfoField{homepage}{\faGlobe}[https://]
 \NewInfoField{twitter}{\faTwitter}[https://twitter.com/]
 \NewInfoField{linkedin}{\faLinkedin}[https://linkedin.com/in/]
+\NewInfoField{matrix}{[m]}[https://matrix.to/]
 \NewInfoField{github}{\faGithub}[https://github.com/]
 % \NewInfoField{sourcehut}{\faCircle[regular]}[https://sr.ht/]
 \NewInfoField{sourcehut}{sourcehut}[https://sr.ht/]
