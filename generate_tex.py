@@ -118,6 +118,7 @@ def print_referee(referee):
 
 def print_section(section):
     """Return TeX lines for a section."""
+    from pprint import pprint
     section_type = list(section.keys())[0]
     section_body = section[section_type]
     section_heading = (section_body['heading']

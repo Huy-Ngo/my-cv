@@ -9,16 +9,14 @@ colorscheme:
     body: '#121212'
 personalinfo:
     name: Ngô Ngọc Đức Huy
-    tagline: Backend Web Developer Intern
+    tagline: Backend Web Developer
     photo: pfp.jpeg
     email: huyngo@disroot.org
-    # phone: +84-949-507-248
-    # mailaddress: Åddrésş, Street, 00000 Cóuntry
     location: Hanoi, VIETNAM
     homepage: huy-ngo.github.io/about/work
-    fosstodon: '@huy_ngo'
     linkedin: huy-ngo-b3a964120
     github: Huy-Ngo
+    matrix: '@huyngo:envs.net'
     sourcehut: ~huyngo
 column-1:
     - events: 
@@ -27,52 +25,55 @@ column-1:
             - event: 
                 title: Python Back-end internship
                 org: VC Corp
-                time: May 2020 - Sep 2020
+                time: May 2020 - September 2020
                 location: Hanoi
                 description: >
                     Working on disposable mail service
                     (see \textbf{\href{https://github.com/Huy-Ngo/temp-mail}
-                    {source code}} of early work) and other mail-related problems
+                    {source code}} of early work) and mail searching.
     - events:
         heading: Projects
         items:
             - event:
                 title: Palace
                 org: Group project at USTH
-                time: Dec 2019 -- current
+                time: December 2019 -- current
                 description:
                     - 3D Audio processing
-                    - Source code available on \textbf{\href{https://sr.ht/~cnx/palace}{SourceHut}}
+                    - Source code available on
+                      \textbf{\href{https://sr.ht/~cnx/palace}{SourceHut}}
             - event:
                 title: Acanban
                 org: Group project at USTH
-                time: Nov 2020 -- current
+                time: November 2020 -- current
                 description:
                     - A student-supervisor collaboration platform with builtin academic integration, work in progress
-                    - Source code available on \textbf{\href{https://github.com/Huy-Ngo/acanban}{GitHub}}
+                    - Source code available on
+                      \textbf{\href{https://github.com/Huy-Ngo/acanban}{GitHub}}
             - event:
                 title: Discord meme bot
                 org: Personal project
-                time: Sep 2020
+                time: September 2020
                 description:
                     - A Discord bot that sends memes from various API
-                    - Source code available on \textbf{\href{https://github.com/Huy-Ngo/discord-meme-bot}{GitHub}}
+                    - Source code available on
+                      \textbf{\href{https://github.com/Huy-Ngo/discord-meme-bot}{GitHub}}
             - event:
                 title: wikt-cli
                 org: Personal project
-                time: Oct 2020 -- current
+                time: October 2020 -- current
                 description:
                     - A CLI tool for looking up Wiktionary, written in Go.
-                    - Source code available on \textbf{\href{https://sr.ht/~huyngo/wikt-cli}{SourceHut}}
+                    - Source code available on
+                      \textbf{\href{https://sr.ht/~huyngo/wikt-cli}{SourceHut}}
             - event:
-                title: COVID-19 News crawler
-                org: Personal project
-                time: Feb 2021
+                title: InterPlanetary Wheel packaging
+                org: IPWHL
+                time: July 2021 -- current
                 description: >
-                    A web crawler written in Go taking news from 
-                    \textbf{\href{https://ncov.moh.gov.vn/dong-thoi-gian}{Vietnamese MOH website}}
-                    and add Atom feed.
-                    Source code available on \textbf{\href{https://github.com/Huy-Ngo/cov-news}{GitHub}}
+                    A singly-versioned Python binary distribution
+                    Project is available on
+                    \textbf{\href{https://sr.ht/~cnx/ipwhl}{SourceHut}}
 column-2: 
     - events:
         heading: Education
@@ -80,10 +81,9 @@ column-2:
             - event:
                 title: Bachelor in Information and Communication Technology
                 org: University of Science and Technology of Hanoi
-                time: Sept 2018 -- Current
-                description: >
-                    Not graduated yet.
-                    Granted scholarships for the last 5 semesters.
+                time: Sept 2018 -- 2021
+                description:
+                    - "GPA: 16.9/20"
     - achievements:
         heading: Certifications
         items:
@@ -117,8 +117,7 @@ column-2:
             HTML \& CSS: 4
             RethinkDB: 3
             SQL: 3
-            Go: 2
-            Kotlin: 1
+            Go: 1
     - badges:
         heading: Frameworks
         items:
@@ -131,7 +130,6 @@ column-2:
             Vietnamese: 5
             English: 4
             French: 2
-            German: 1
     - badges:
         heading: Hobbies
         items:
@@ -139,6 +137,5 @@ column-2:
             - Books
             - Languages
             - br
-            - World building
             - FOSS
             - Memes
