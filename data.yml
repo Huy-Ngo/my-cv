@@ -13,7 +13,7 @@ personalinfo:
     photo: pfp.jpeg
     email: huyngo@disroot.org
     location: Hanoi, VIETNAM
-    homepage: huy-ngo.github.io/about/work
+    homepage: huyngo.envs.net/works
     linkedin: huy-ngo-b3a964120
     github: Huy-Ngo
     matrix: '@huyngo:envs.net'
@@ -30,7 +30,8 @@ column-1:
                 description: >
                     Working on disposable mail service
                     (see \textbf{\href{https://github.com/Huy-Ngo/temp-mail}
-                    {source code}} of early work) and mail searching.
+                    {source code}} of early work) and mail searching with
+                    Elasticsearch.
     - events:
         heading: Projects
         items:
@@ -47,7 +48,8 @@ column-1:
                 org: Group project at USTH
                 time: November 2020 -- current
                 description:
-                    - A student-supervisor collaboration platform with builtin academic integration, work in progress
+                    - A student-supervisor collaboration platform with builtin
+                      academic integration, work in progress
                     - Source code available on
                       \textbf{\href{https://github.com/Huy-Ngo/acanban}{GitHub}}
             - event:
@@ -71,7 +73,8 @@ column-1:
                 org: IPWHL
                 time: July 2021 -- current
                 description: >
-                    A singly-versioned Python binary distribution
+                    A singly-versioned Python binary distribution, backed by the
+                    distributed file system IPFS.
                     Project is available on
                     \textbf{\href{https://sr.ht/~cnx/ipwhl}{SourceHut}}
 column-2: 
@@ -83,7 +86,9 @@ column-2:
                 org: University of Science and Technology of Hanoi
                 time: Sept 2018 -- 2021
                 description:
-                    - "GPA: 16.9/20"
+                    - "GPA: 16.9/20 (3.38/4)"
+                    - Among top 5\% students
+                    - Awarded highest scholarships for all 3 years
     - achievements:
         heading: Certifications
         items:
@@ -101,41 +106,29 @@ column-2:
             - Hard-working
             - Work under pressure
             - br
-            - dividertag
             - Web Development
             - Algorithms
             - br
             - OOP
             - OOAD
             - LaTeX
-    - scales:
+    - badges:
         heading: Programming
-        divider: no
         items:
-            Python: 5
-            HTML \& CSS: 4
-            JavaScript: 4
-            SQL: 3
-            RethinkDB: 3
-            Go: 1
+            - Python
+            - HTML
+            - CSS
+            - JavaScript
+            - SQL
+            - NoSQL
     - badges:
         heading: Frameworks
         items:
             - Flask
             - Quart
-    - scales:
-        heading: Languages
-        divider: no
-        items:
-            Vietnamese: 5
-            English: 4
-            French: 2
     - badges:
-        heading: Hobbies
+        heading: Languages
         items:
-            - Movies
-            - Books
-            - Languages
-            - br
-            - FOSS
-            - Memes
+            - Vietnamese (native)
+            - English (proficient)
+            - French (basic)
