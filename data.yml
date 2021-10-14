@@ -9,7 +9,7 @@ colorscheme:
     body: '#121212'
 personalinfo:
     name: Ngô Ngọc Đức Huy
-    tagline: Backend Web Developer
+    tagline: Python Developer
     photo: pfp.jpeg
     email: huyngo@disroot.org
     location: Hanoi, VIETNAM
@@ -23,9 +23,9 @@ column-1:
         heading: Experience 
         items:
             - event: 
-                title: Python Back-end internship
+                title: Internship
                 org: VC Corp
-                time: May 2020 - September 2020
+                time: April 2021 - July 2021
                 location: Hanoi
                 description: >
                     Working on disposable mail service
